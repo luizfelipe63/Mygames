@@ -6,7 +6,7 @@ import { ButtonWishes, CardContent, CardGameImg } from "./styles";
 export function CardGame() {
   return (
     <CardContent>
-      <NavLink to={'/detalisgame'}>
+      <NavLink to={'/details'}>
         <CardGameImg >
         </CardGameImg>
       </NavLink>
@@ -14,7 +14,7 @@ export function CardGame() {
         Add to game
         <Plus size={16} weight='bold' />
       </ButtonWishes>
-      <NavLink to={'/detalisgame'} ><p>Hades</p></NavLink>
+      <NavLink to={'/details'} ><p>Hades</p></NavLink>
     </CardContent>
   )
 }
